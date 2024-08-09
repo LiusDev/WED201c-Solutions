@@ -1,0 +1,82 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #0ec0c3;
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.about img {
+    width: 100%;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.tphcm-container {
+    position: relative;
+}
+
+.tphcm-container div {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    color: white;
+}
+
+.tphcm {
+    width: 100%;
+    height: 430px;
+}
+
+.location {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+}
+
+.location img {
+    width: 100%;
+    height: 200px;
+}
+
+.location div {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    color: white;
+}
+
+.house img {
+    width: 100%;
+}
+
+.house h3 {
+    text-align: center;
+    color: orange;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0ec0c3;
+    padding: 10px 0;
+    margin: 30px 0;
+    color: white;
+}
