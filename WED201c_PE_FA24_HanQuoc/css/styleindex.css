@@ -1,0 +1,128 @@
+.header {
+	padding: 10px 40px;
+}
+
+.header .logo img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.header .search {
+	margin-top: 32px;
+	height: 100%;
+}
+
+.header .promotion {
+	margin-top: 36px;
+	text-align: center;
+}
+
+.header .promotion h3 {
+	margin: 0;
+	font-size: 20px;
+}
+
+@media (max-width: 767px) {
+	.header .logo {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.booknow-pos {
+		float: right;
+	}
+}
+
+.content-left .box {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	margin: 20px 0;
+}
+
+.content-left img {
+	width: 20px;
+	margin-right: 10px;
+}
+
+.content-left h4 {
+	background-color: aqua;
+	margin: 0;
+	padding: 16px 8px;
+	color: rgb(92, 92, 255);
+}
+
+.content-left {
+	padding-right: 8px;
+}
+
+.content-left p {
+	padding: 0 8px;
+}
+
+.content-right img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.content-title {
+	text-align: center;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	margin: 20px 0;
+	color: rgb(92, 92, 255);
+}
+
+.tour {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+	margin: 20px 0;
+	padding: 8px 0;
+}
+
+.tour h2 {
+	color: rgb(92, 92, 255);
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+.tour p {
+	line-height: 24px;
+}
+
+.tour h4 {
+	color: orange;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+/* css booknow class like a button with light blue background and white text */
+.booknow {
+	background-color: rgb(77, 86, 255);
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: fit-content;
+}
+
+.footer {
+	background-color: #0ec0c3;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0;
+}
