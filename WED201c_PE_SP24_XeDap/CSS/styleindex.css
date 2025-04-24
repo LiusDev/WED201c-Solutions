@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgray;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 120px;
+}
+
+.header .menu {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0 60px;
+}
+
+.header .menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.header .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .logo img {
+	height: 120px;
+	width: auto;
+}
+
+.header .search {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 60px;
+}
+
+.header .search input {
+	padding: 5px 10px;
+}
+
+.header .search button {
+	color: white;
+	background-color: orange;
+	border: none;
+	padding: 5px 10px;
+}
+
+.banner {
+	width: 100%;
+	height: 500px;
+	margin: 12px 0;
+}
+
+.services {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1600px;
+	gap: 20px;
+}
+
+.services .service {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	color: orange;
+	padding: 10px;
+}
+
+.title {
+	text-align: center;
+	color: white;
+	margin: 20px 0;
+}
+
+.product {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1600px;
+	gap: 80px;
+}
+
+.product .featured-img {
+	width: 100%;
+	height: 100%;
+}
+
+.product .product-details h2 {
+	color: blue;
+}
+
+.product .product-details p {
+	color: white;
+	font-weight: bold;
+}
+
+.product .product-details .gift {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.product .product-details img {
+	width: 200px;
+}
+
+.accessories {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	gap: 20px;
+}
+
+.accessories .item {
+	box-shadow: 0 0 8px #000;
+}
+
+.accessories .item img {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.accessories .item div {
+	background: orange;
+	color: white;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: blue;
+	color: white;
+	padding: 20px;
+	margin-top: 40px;
+	gap: 10px;
+}
